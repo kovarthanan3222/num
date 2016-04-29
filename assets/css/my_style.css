@@ -1,0 +1,11 @@
+  .form_center{  width: 60%;
+    margin: 0 auto;
+	}
+        .error{
+            color:red;
+        }
+        .success-message{
+            color:green;
+            font-weight: bold;
+            text-align:center;
+        }
