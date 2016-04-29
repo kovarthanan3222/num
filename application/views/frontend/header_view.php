@@ -8,17 +8,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   
 	<!-- !!!!!! CSS !!!!!!! -->
-	<link rel="stylesheet" href="css/layout.min.css">
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="stylesheet" href="css/menu_offcanvas.css"/>
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<link href="css/bootstrap-select.css" rel="stylesheet">
-	<link href="css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css">
-	<link rel="stylesheet" href="css/datepicker.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/layout.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/style.css"/>
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/menu_offcanvas.css"/>
+	<link href="<?php echo base_url(); ?>assets/frontend/css/owl.carousel.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/frontend/css/owl.theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/swiper.min.css">
+	<link href="<?php echo base_url(); ?>assets/frontend/css/bootstrap-select.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>assets/frontend/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/jquery-ui-1.10.3.custom.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/datepicker.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/responsive.css">
 	<!--<link rel='stylesheet prefetch' href="css/animate.css">-->
 
 	<!-- !!!!!! FONT !!!!!!! -->
@@ -36,11 +36,11 @@
 	
 	
 	<!-- !!!!!! JAVA SCRIPT !!!!!!! -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-    <script src="js/menu_offcanvas.js"></script>
-	<script src="js/bootstrap-select.min.js"></script>
-	<script src="js/validator.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/frontend/js/jquery.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/frontend/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/frontend/js/menu_offcanvas.js"></script>
+	<script src="<?php echo base_url(); ?>assets/frontend/js/bootstrap-select.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/frontend/js/validator.min.js"></script>
 
 	
 </head>
@@ -101,7 +101,7 @@
 			<div class="header_container">
             <div class="container-fluid">
                 <div class="navbar-header">
-                  <!-- navbar-brand -->  <a class="" href="index.php"><img src="images/Newurbanmechanic-logo.png" class="logo"></a>
+                  <!-- navbar-brand -->  <a class="" href="index.php"><img src="<?php echo base_url(); ?>assets/frontend/images/Newurbanmechanic-logo.png" class="logo"></a>
                     <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
                         <span class="sr-only">Toggle navigation</span>
                         <span>

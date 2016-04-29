@@ -1,6 +1,4 @@
-<?
-include_once "header.php";
-?>
+
 	<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
 
 <script>
@@ -141,7 +139,7 @@ include_once "header.php";
 		</div>
 		<div class="col-sm-4">
 		<div class="dic_sec">
-		  <img src="images/how_it_works_search.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/how_it_works_search.svg">
 		  <h3>SEARCH</h3>
 		  <div class="h3_title_underline"></div>
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -149,7 +147,7 @@ include_once "header.php";
 		</div>
 		<div class="col-sm-4">
 		<div class="dic_sec">
-		  <img src="images/how_it_works_select.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/how_it_works_select.svg">
 		  <h3>SELECT</h3>
 		  <div class="h3_title_underline"></div>
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -157,7 +155,7 @@ include_once "header.php";
 		</div>
 		<div class="col-sm-4">
 		<div class="dic_sec">
-		<img src="images/how_it_works_calendar.svg">
+		<img src="<?php echo base_url(); ?>assets/frontend/images/how_it_works_calendar.svg">
 		  <h3>BOOK</h3>   
 			<div class="h3_title_underline"></div>
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -186,7 +184,154 @@ include_once "header.php";
 		<div class="col-sm-12">
 		<div class="offer_thunail">
 		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
+			<div class="overlay">
+			<a class="info" href="offer_form.php">Redeem Now</a>
+			</div>
+		</div>
+		<div class="offer_content">
+			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
+			<p>Valid till 30-Apr-2016</p>
+			<div class="row">
+			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
+			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
+			</div>
+		</div>
+		</div>
+        </div>
+	</div>
+	
+	<div class="item">
+		<div class="col-sm-12">
+		<div class="offer_thunail">
+		<div class="hovereffect">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
 			<div class="overlay">
 			<a class="info" href="offer_form.php">Redeem Now</a>
 			</div>
@@ -228,154 +373,7 @@ include_once "header.php";
 		<div class="col-sm-12">
 		<div class="offer_thunail">
 		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
-			<div class="overlay">
-			<a class="info" href="offer_form.php">Redeem Now</a>
-			</div>
-		</div>
-		<div class="offer_content">
-			<a href="offers.php">Get upto <b>70% off*</b> on New Offer for  engine with many other many other</a>
-			<p>Valid till 30-Apr-2016</p>
-			<div class="row">
-			<div class="col-xs-6">		<!--	<p>11 NOV 2014 - 22 NOV 2014</p>	-->		</div>
-			<div class="col-xs-6 price_detail">		<button onclick="location.href='offers_view.php';">VIEW OFFER</button>	</div>
-			</div>
-		</div>
-		</div>
-        </div>
-	</div>
-	
-	<div class="item">
-		<div class="col-sm-12">
-		<div class="offer_thunail">
-		<div class="hovereffect">
-			<img class="img-responsive" src="images/home4.jpg" alt="">
+			<img class="img-responsive" src="<?php echo base_url(); ?>assets/frontend/images/home4.jpg" alt="">
 			<div class="overlay">
 			<a class="info" href="offer_form.php">Redeem Now</a>
 			</div>
@@ -413,7 +411,7 @@ include_once "header.php";
 <div class="container">
 <div class="row">
 <div class="col-sm-5 about_png">
-<img src="images/about_us.jpg">
+<img src="<?php echo base_url(); ?>assets/frontend/images/about_us.jpg">
 </div>
 <div class="col-sm-7">
 <h2>About Us</h2>
@@ -435,7 +433,7 @@ include_once "header.php";
 			  <div>
 			  </div>
 			  <div class="complaint_img">
-			  <img src="images/pv vimal.jpg">
+			  <img src="<?php echo base_url(); ?>assets/frontend/images/pv vimal.jpg">
 			  </div>
 			  <p>
 			  "I have taken several of the family cars here for the past several years and without exception the experiences have been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really great people."
@@ -455,7 +453,7 @@ include_once "header.php";
 			  <div>
 			  </div>
 			  <div class="complaint_img">
-			  <img src="images/pv vimal.jpg">
+			  <img src="<?php echo base_url(); ?>assets/frontend/images/pv vimal.jpg">
 			  </div>
 			  <p>
 			  "I have taken several of the family cars here for the past several years and without exception the experiences have been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really great people."
@@ -475,7 +473,7 @@ include_once "header.php";
 			  <div>
 			  </div>
 			  <div class="complaint_img">
-			  <img src="images/pv vimal.jpg">
+			  <img src="<?php echo base_url(); ?>assets/frontend/images/pv vimal.jpg">
 			  </div>
 			  <p>
 			  "I have taken several of the family cars here for the past several years and without exception the experiences have been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really great people."
@@ -520,7 +518,7 @@ include_once "header.php";
 		  <h3>REMINDERS</h3>
 		  <div class="icon_para_com">
 		  <div class="icon_comp">
-		  <img src="images/reminder.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/reminder.svg">
 		  </div>
 		  <div class="com_over_para">
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -534,7 +532,7 @@ include_once "header.php";
 		  <h3>SERVICE RECORDS</h3>
 		  <div class="icon_para_com">
 		  <div class="icon_comp">
-		  <img src="images/service_record.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/service_record.svg">
 		  </div>
 		  <div class="com_over_para">
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -548,7 +546,7 @@ include_once "header.php";
 		  <h3>SAVES TIME & EFFORT</h3>
 		  <div class="icon_para_com">
 		  <div class="icon_comp">
-		  <img src="images/save_time_effort.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/save_time_effort.svg">
 		  </div>
 		  <div class="com_over_para">
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -562,7 +560,7 @@ include_once "header.php";
 		  <h3>INFORMED CHOICE</h3>
 		  <div class="icon_para_com">
 		  <div class="icon_comp">
-		  <img src="images/informed_choice.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/informed_choice.svg">
 		  </div>
 		  <div class="com_over_para">
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -576,7 +574,7 @@ include_once "header.php";
 		  <h3>TRUST</h3>
 		  <div class="icon_para_com">
 		  <div class="icon_comp">
-		  <img src="images/trust.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/trust.svg">
 		  </div>
 		  <div class="com_over_para">
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -590,7 +588,7 @@ include_once "header.php";
 		  <h3>PEACE OF MIND</h3>
 		  <div class="icon_para_com">
 		  <div class="icon_comp">
-		  <img src="images/peace_of_mind.svg">
+		  <img src="<?php echo base_url(); ?>assets/frontend/images/peace_of_mind.svg">
 		  </div>
 		  <div class="com_over_para">
 		  <p>If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
@@ -695,10 +693,3 @@ include_once "header.php";
 
 </section>
 
-
-
-
-
-<?
-include_once "footer.php";
-?>
